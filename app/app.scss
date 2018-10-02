@@ -1,0 +1,33 @@
+.home {
+    background: color($colors, primary);
+    color: color($colors, light);
+    margin-top: 45px;
+    text-emphasis-color: color($colors, secondary);
+}
+
+.toolbar-title {
+    text-align: center;
+
+}
+
+.tabs-md .tab-button-icon {
+    color: #ccc;
+}
+
+.about {
+    background: color($colors, primary);
+    color: color($colors, primary);
+    margin-top: 45px;
+    text-emphasis-color: color($colors, secondary);
+
+}
+
+.activeHighlight {
+    background-color: color($colors, primary);
+}
+
+.chembalancer {
+    background: color($colors, primary);
+    color: color($colors, light);
+    text-emphasis-color: color($colors, secondary);
+}

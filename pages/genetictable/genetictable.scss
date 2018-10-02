@@ -1,0 +1,18 @@
+page-genetictable {
+    background-color: color($colors, primary);
+    color: color($colors, light);
+
+}
+
+.button {
+    background-color: color($colors, primary);
+    border: none;
+    color: color($colors, secondary);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+

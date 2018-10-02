@@ -1,0 +1,42 @@
+page-home {
+
+    $font-path: "../assets/fonts";
+    $app-direction: ltr;
+
+    @import "ionic.globals";
+
+    $colors: (
+    primary:    #6495ed,
+    secondary:  #f9f900,
+    danger:     #f53d3d,
+    light:      #ffffff,
+    dark:       #000000
+    );
+
+
+    background-image: url("/Users/dvjones/Documents/Grantham University/201832--08-08-2018-10-02-2018/CS430 Mobile Application Development/ShinyPeriodicTableBBG.png");
+
+    //Top Toolbar
+    $toolbar-ios-background: color($colors, secondary);
+    $toolbar-background: color($colors, secondary);
+
+    //Bottom Tabs
+    $tabs-ios-background: color($colors, secondary);
+    $tabs-ios-tab-color-active: color($colors, light);
+    $tabs-ios-tab-color-inactive: color($colors, light);
+    $tabs-ios-tab-color: color($colors, light);
+    $tabs-ios-tab-text-color-active: color($colors, light);
+
+
+    $list-ios-background-color: color($colors, secondary);
+    $list-ios-text-color: color($colors, light);
+
+    @import "ionic.theme.default";
+    @import "ionic.ionicons";
+    @import "roboto";
+    @import "noto-sans";
+
+
+}
+
+
